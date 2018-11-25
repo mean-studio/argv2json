@@ -4,7 +4,6 @@ module.exports = class argv2json {
     args.runtime = process.argv[0];
     args.initiator = process.argv[1];
     let argv = process.argv.splice(2);
-    console.log(argv);
     argv.forEach(element => {
       let currentElement = element.split('=');
       if (currentElement[1]) {
