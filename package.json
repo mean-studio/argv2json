@@ -1,0 +1,12 @@
+{
+  "name": "argv2json",
+  "version": "1.0.0",
+  "description": "Converts CLI arguments to json objects.",
+  "main": "argv2json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["argv","json"],
+  "author": "mean.studio",
+  "license": "MIT"
+}
